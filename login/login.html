@@ -9,12 +9,15 @@
     
     </head>
     <body>
+        <!--CSS would help make this photo a bit wider, ultimately like a header-->
         <div class="container">
             <img src="../images/nd_students.jpeg" alt="Notre Dame students walking to class" title="Notre Dame students are just as social as they are academic!"/>
             <h1>Log In</h1>
             <h2>Please log in using your Notre Dame email.</h2>
         </div>
         <hr>
+        <!--This form submission will automatically take you to the home page-->
+        <!--TODO: When backend is connected can add full login/student authentication-->
         <form action="../dorm/home/home.html">
             <div class="container">
                 <label for="email"><b>Email: </b></label>
@@ -26,7 +29,6 @@
                     required
                 />
                 <br>
-      
                 <label for="psw"><b>Password: </b></label>
                 <input
                     type="password"
@@ -39,6 +41,7 @@
               <button type="submit">Log In</button>
             </div>
         </form>
+        <!--This is the only navigation for this page because the user has not logged in yet-->
         <a href="../index.html">Go Back</a>
     </body>
 
