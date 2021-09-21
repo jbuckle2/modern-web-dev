@@ -1,2 +1,2 @@
-# Modern Web Development Feature 1
-Repository for my first feature for Modern Web Development.
+# Modern Web Development Feature 2
+Repository for my second feature for Modern Web Development.
